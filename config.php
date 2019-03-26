@@ -26,8 +26,8 @@
 
 		$id = $data["id"];
 		$Nama = htmlspecialchars($data["Nama"]);
-		$Bahan = htmlspecialchars($data["NIM"]);
-		$Cara_Memasak = htmlspecialchars($data["TTL"]);
+		$NIM = htmlspecialchars($data["NIM"]);
+		$TTL = htmlspecialchars($data["TTL"]);
 
 		$query = "UPDATE post SET Nama = '$Nama', NIM = '$NIM', TTL = '$TTL' WHERE id = $id";
 

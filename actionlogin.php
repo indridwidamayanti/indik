@@ -17,13 +17,12 @@
  	}
  	
  	else {
- 		echo "lu ilegal bray!!!";
+ 		echo "Belum punya akun";
  		echo "<br>";
  		echo "<a href='formregister.php'>registrasi<a>";
- 		echo " dulu aja bray. kali aja cocok ^^";
+ 		echo "Silahkan registrasi";
  		echo "<br>";
  		echo "<br>";
- 		echo "<a href='register.php'> login?<a>";
  	}
 
 ?>

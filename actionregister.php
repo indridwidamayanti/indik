@@ -13,15 +13,14 @@
 
 
 	if ($result) {
-		echo "maskhock bray!!!";
+		echo "Silahkan Login";
 		echo("<br>");
 		echo "login ";
 		echo "<a href='formlogin.php'>disini</a>";
-		echo " bray";
 	}
 	else {
-		echo "lu jelek belum mandi makanya gagal regis";
-		echo "<a href='formregister.php'>try egen bray</a>";
+		echo "GAGAl REGIS";
+		echo "<a href='formregister.php'>ulang lagi </a>";
 	}
 
 

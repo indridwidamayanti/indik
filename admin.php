@@ -61,7 +61,7 @@ if(!isset($_SESSION['login'])) {
       <center>
         <button><a href="ubah.php?id=<?= $x["id"]?>">Edit</a></button>
       <br><br>
-      <button><a href="hapus.php?id=<?= $x["id"]?>" onclick =" return confirm ('yakin bray mau dihapus?');">hapus</a></button></center>
+      <button><a href="hapus.php?id=<?= $x["id"]?>" onclick =" return confirm ('Apakah anda yakin mau mengahapusnya?');">hapus</a></button></center>
       
     </td>
   </tr>

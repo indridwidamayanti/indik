@@ -11,6 +11,7 @@ require 'config.php';
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<form id="form-container" class="form-container">
 
 <div id="canvas">
 <div id="header">
@@ -19,8 +20,10 @@ require 'config.php';
 
 <div id="menu">
   <ul>
-    <li><a href="formlogin.php">Login</a>
-
+    <li><a href="formlogin.php">Login</a></li>
+      <label for="input">Wikipedia : </label>
+      <input type="text" id="input" value="">
+      <button id="submit-btn">Submit </button>
   </ul>
 
 
@@ -41,6 +44,8 @@ require 'config.php';
     <th>Waktu Update</th>
   </tr> 
 
+
+
 <?php $i=1; ?>
 <?php foreach ($tampil as $x ) : //foreach itu pengulangan pada array  ?> 
   <tr>
@@ -53,11 +58,20 @@ require 'config.php';
   </tr>
 <?php $i++; ?>
 <?php endforeach; ?>
+ 
+
 </table>
 </center>
-
+<li class="wikipedia-container">
+        <h3 id="wikipedia-header">Relevant Wikipedia Links</h3>
+        <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+</li>
 </div>
 </div>
-
+</form>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
 </body>
 </html>
